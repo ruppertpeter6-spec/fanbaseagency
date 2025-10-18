@@ -17,6 +17,11 @@ const stats = [
     label: 'paid directly to artists on Bandcamp since launch',
     source: 'Bandcamp, 2024',
   },
+  {
+    value: '3x Streams',
+    label: 'superfans generate 300% more repeat plays',
+    source: 'Chartmetric, 2024',
+  },
 ]
 
 const capabilities = [
@@ -201,7 +206,7 @@ export default function HomePage() {
                   Request an invitation
                 </a>
                 <a className="button button-secondary" href="#proof">
-                  See our impact
+                  See the impact
                 </a>
               </div>
               <div className="hero-metrics">
